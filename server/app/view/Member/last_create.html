@@ -1,0 +1,69 @@
+{include file="Common/top" title="首页" metas='' /}
+<div class="main-container">
+	<div class="padding-md">
+		<ul class="breadcrumb">
+			<li><span class="primary-font"><i class="icon-home"></i></span><a href="__PRO_PATH__/"> 首页</a></li>
+			<li><span class="primary-font"><i class="icon-home"></i></span><a href="__PRO_PATH__/Member/lastmember">在校</a></li>
+			<li>新建</li>
+		</ul>
+		{include file="Common/member-form" /}
+	</div>
+</div><!-- /main-container -->
+{include file="Common/upload"}
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/ueditor/ueditor.all.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/ueditor/lang/zh-cn/zh-cn.js"></script>
+<script>
+	var ue = UE.getEditor('editor');
+	$('#select-tag').val('{$data.tagid ?? ""}');
+	$('#lab-nav4').addClass('active open');
+	$('#lab-nav4-sub1').addClass('active');
+	$('#iscurrent').on('click', function () {
+		if (!this.checked) {
+			$("input[name='iscurrent']").val(1);
+			console.log($("input[name='iscurrent']").val());
+		} else {
+			$("input[name='iscurrent']").val(0);
+		}
+	});
+	$('#form-cancel').on('click', function () {
+		window.location.href = '__PRO_PATH__/Member/lastmember';
+	});
+	$('#form-publish').on('click', function () {
+		$("input[name='ispublish']").val(1);
+		$('#main-form').submit();
+	});
+	myupload({
+		container: 'upload-wrapper',
+		browse: 'pickfiles',
+		url: '__PRO_PATH__/Media/upload?dir=member',
+		img_types: 'jpg,gif,png',
+		zip_types: 'zip',
+		filelist: 'filelist',
+		uploadfiles: 'uploadfiles',
+		file_size: '10mb',
+		onUploaded: function (up, file, result) {
+			$("input[name='img_origin']").val(file.name);
+			var res = JSON.parse(result.response);
+			$("input[name='img']").val(res.result.file);
+		},
+		isMulti: false
+	});
+	myupload({
+		container: 'upload-wrapper-bg',
+		browse: 'pickfiles-bg',
+		url: '__PRO_PATH__/Media/upload?dir=member',
+		img_types: 'jpg,gif,png',
+		zip_types: 'zip',
+		filelist: 'filelist-bg',
+		uploadfiles: 'uploadfiles-bg',
+		file_size: '10mb',
+		onUploaded: function (up, file, result) {
+			$("input[name='bgimg_origin']").val(file.name);
+			var res = JSON.parse(result.response);
+			$("input[name='bgimg']").val(res.result.file);
+		},
+		isMulti: false
+	});
+</script>
+{include file="Common/bottom" /}

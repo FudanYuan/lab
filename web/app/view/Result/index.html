@@ -1,0 +1,76 @@
+{include file="Common/top" title="科研成果" metas='' /}
+<script>
+	$('#nav .main a').eq(1).addClass('cur');
+</script>
+<link href="__PUBLIC__/css/common-index.css" rel="stylesheet" />
+<div id="result-con">
+	<div class="main">
+		<div class="con">
+			<div class="c-top">
+				{php}$curTagid = input('get.tagid');{/php}
+				<a href="?" class="{empty name='$curTagid'}cur{/empty}">全部</a>
+				{foreach name="tags" item="tag"}
+				<a href="?tagid={$tag.id}" class="{if condition='$curTagid==$tag.id'}cur{/if}">{$tag.title}</a>
+				{/foreach}
+			</div>
+			<h2 hidden>科研成果</h2>
+			<div class="c-descr clearFix" hidden>
+				<i class="fl"></i>
+				<p class="fl">科研需要成果来推动</p>
+				<i class="fl"></i>
+			</div>
+
+			{if condition="($tag_name eq '论文发表') OR ($tag_name eq '')" }
+			{foreach name="research" item="area"}
+			<div style="width: 840px; margin-left:5px; margin-top: 10px; font-size: large">{$area.title}</div>
+			<ul class="list clearFix">
+				{foreach name="list" item="model"}
+				{if condition="$area.id eq $model.research_id"}
+				<li>
+					<!--<a href="{empty name='model.href'}__PRO_PATH__/Result/info?id={$model.id}{else /}{$model.href}{/empty}">-->
+						<img src="{:formatUrl($model.img)}">
+						<div class="info" style="display: none">
+							<div class="i-title">
+								<div class="mask"></div>
+							</div>
+						</div>
+					<!--</a>-->
+					<div class="i-descr">
+						<a href="{$model.file}" onclick="update_view({$model.id})"><p>{$model.title}</p></a>
+						<span class="digest">{$model.digest}</span>
+					</div>
+				</li>
+				{/if}
+				{/foreach}
+			</ul>
+			{/foreach}
+			{else/}
+			<ul class="list clearFix">
+				{foreach name="list" item="model"}
+				<li>
+					<!--<a href="{empty name='model.href'}__PRO_PATH__/Result/info?id={$model.id}{else /}{$model.href}{/empty}">-->
+					<img src="{:formatUrl($model.img)}">
+					<div class="info" style="display: none">
+						<div class="i-title">
+							<div class="mask"></div>
+						</div>
+					</div>
+					<!--</a>-->
+					<div class="i-descr">
+						<a href="{$model.file}" onclick="update_view({$model.id})"><p>{$model.title}</p></a>
+						<span class="digest">{$model.digest}</span>
+					</div>
+				</li>
+				{/foreach}
+			</ul>
+			{/if}
+			{$list->render()}
+		</div>
+	</div>
+</div>
+<script>
+	function update_view(id) {
+		$.post('__PRO_PATH__/Result/updateView', {'id': id}, function (res) {});
+	}
+</script>
+{include file="Common/bottom" /}

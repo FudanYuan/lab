@@ -1,0 +1,51 @@
+{include file="Common/top" title="最新动态" metas='' /}
+<script>
+	$('#nav .main a').eq(4).addClass('cur');
+</script>
+<link href="__PUBLIC__/css/common-index.css" rel="stylesheet" />
+<div id="news-con">
+	<div class="main">
+		<div class="con">
+			<div class="c-top">
+				{php}$curTagid = input('get.tagid');{/php}
+				<a href="?" class="{empty name='$curTagid'}cur{/empty}">全部</a>
+				{foreach name="tags" item="tag"}
+				<a href="?tagid={$tag.id}" class="{if condition='$curTagid==$tag.id'}cur{/if}">{$tag.title}</a>
+				{/foreach}
+			</div>
+			<h2>最新动态</h2>
+			<div class="c-descr clearFix" hidden>
+				<i class="fl"></i>
+				<p class="fl">快来看看实验室的日常～</p>
+				<i class="fl"></i>
+			</div>
+			<ul class="list clearFix">
+				{foreach name="list" item="model"}
+				<li>
+					<a href="{empty name='model.href'}__PRO_PATH__/News/info?id={$model.id}{else /}{$model.href}{/empty}">
+					<img src="{:formatUrl($model.img)}" alt="">
+					<div class="info">
+						<div class="i-title">
+							<div class="mask"></div>
+							<p>{:formatText($model.title,16)}</p>
+						</div>
+						<div class="i-descr">
+							<div class="mask"></div>
+							<p>{:formatText($model.digest,38)}</p>
+						</div>
+					</div>
+					<div class="img-title">{$model.tagname}</div>
+					<div class="t-frame">
+						<i class="f-line fl"></i>
+						<i class="f-box fl"></i>
+						<i class="f-line fl"></i>
+					</div>
+					</a>
+				</li>
+				{/foreach}
+			</ul>
+			{$list->render()}
+		</div>
+	</div>
+</div>
+{include file="Common/bottom" /}

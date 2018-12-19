@@ -1,0 +1,141 @@
+{include file="Common/top" title="首页" metas='' /}
+<div class="main-container">
+	<div class="padding-md">
+		<ul class="breadcrumb">
+			<li><span class="primary-font"><i class="icon-home"></i></span><a href="__PRO_PATH__/"> 首页</a></li>
+			<li>校友</li>
+		</ul>
+		<div class="list-search">
+			<form action="" class="form-inline" method="get" >
+				<div class="form-group">
+					<label for="select-tagid">标签：</label>
+					<select name="tagid" class="form-control" style="width:100px" id="select-tagid">
+						<option value="-1">全部</option>
+						{foreach name="tags" item="tag"}
+						<option value="{$tag.id}">{$tag.title}</option>
+						{/foreach}
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="select-name">姓名：</label>
+					<input id="select-name" name="name" class="form-control" style="width:200px" value="{$cond.name ?? ''}" />
+				</div>
+				<button type="submit" class="btn btn-default">查询</button>
+				<script>
+					$('#select-tagid').val('{$cond.tagid ?? -1}');
+				</script>
+			</form>
+		</div>
+		<div class="list-btns">
+			{if condition="authority('ProMember_add')"}
+			<button type="button" class="btn btn-success" id="addItem">新建</button>
+			{/if}
+			{if condition="authority('ProMember_del')"}
+			<button type="button" class="btn btn-default" id="removeItem">删除</button>
+			{/if}
+		</div>
+		<table class="table table-hover" style="background:#fff;">
+			<thead>
+			<tr>
+				<th><input type="checkbox" id="checkbox-all"/></th>
+				<th>序号</th>
+				<th>标签</th>
+				<th>姓名</th>
+				<th>导师</th>
+				<th>联系方式</th>
+				<th>邮箱</th>
+				<th hidden>地址</th>
+				<th>职称</th>
+				<th>链接</th>
+				<th hidden>研究领域</th>
+				<th hidden>摘要</th>
+				<th>封面照片</th>
+				<th hidden>主页照片</th>
+				<th>操作</th>
+			</tr>
+			</thead>
+			<tbody>
+			{foreach name="list" item="model"}
+			<tr>
+				<td><input type="checkbox" name="select" value="{$model.id}" /></td>
+				<td>{$model.id}</td>
+				<td>{$model.tag_title}</td>
+				<td>{$model.name}</td>
+				<td>{$model.tutor}</td>
+				<td>{$model.phone}</td>
+				<td>{$model.email}</td>
+				<td hidden>{$model.address}</td>
+				<td>{$model.position}</td>
+				<td>{$model.url}</td>
+				<td hidden>{$model.research_area}</td>
+				<td hidden>{$model.digest}</td>
+				<td><img src="{$model.img}" alt="" style="width:160px; height:50px;" /></td>
+				<td hidden><img src="{$model.bgimg}" alt="" style="width:160px; height:50px;" /></td>
+				<td>
+					{if condition="authority('CurMember_top')"}
+					<a href="javascript:;" onclick="doTop({$model.id})">置顶</a>
+					{/if}
+
+					{if condition="!$model.ispublish"}
+					<a href="javascript:;" onclick="doPublish({$model.id})">发布</a>
+					{/if}
+
+					{if condition="authority('CurMember_recomm')"}
+					{if condition="$model.isrecommend"}
+					<a href="javascript:;" onclick="cancelRecomm({$model.id})">取消</a>
+					{else /}
+					<a href="javascript:;" onclick="doRecommend({$model.id})">推荐</a>
+					{/if}
+					{/if}
+
+					{if condition="authority('CurMember_edit')"}
+					<a href="__PRO_PATH__/Member/last_edit?id={$model.id}">编辑</a>
+					{/if}
+				</td>
+			</tr>
+			{/foreach}
+			</tbody>
+		</table>
+		{$list->render()}
+	</div>
+</div><!-- /main-container -->
+{include file="Common/popup_warn" /}
+{include file="Common/popup_list" /}
+{include file="Common/calendar" /}
+{include file="Common/upload" /}
+{include file="Common/popup_top" /}
+{include file="Common/popup_recommend" /}
+<script>
+	$('#lab-nav4').addClass('active open');
+	$('#lab-nav4-sub2').addClass('active');
+	popupList({
+		create:'__PRO_PATH__/Member/last_create',
+		remove:'__PRO_PATH__/Member/remove'
+	});
+	function doPublish(id){
+		$.get('__PRO_PATH__/Member/dopublish', {id:id}, function(res){
+			if(res.code == 1){
+				window.location.reload();
+			}else{
+				popWarn('发布失败');
+			}
+		});
+	}
+	function doRecommend(id){
+		popupRecomm('__PRO_PATH__/Member/dorecomm', id);
+	}
+	function cancelRecomm(id){
+		$.get('__PRO_PATH__/Member/cancelrecomm', {conid:id}, function(res){
+			if(res.code == 1){
+				window.location.reload();
+			}else{
+				popWarn(ret.msg);
+			}
+		});
+	}
+	function doTop(id){
+		popupForm(3, id);
+	}
+</script>
+{include file="Common/bottom" /}
+

@@ -1,0 +1,843 @@
+[ 2018-01-13T19:23:52+08:00 ] 127.0.0.1 127.0.0.1 GET /web/
+[ log ] lab.com/web/ [运行时间：0.135712s][吞吐率：7.37req/s] [内存消耗：2,126.93kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+	 * 首页
+	 * @return \think\response\View
+	 */
+Method [ <user> public method index ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/controller/Index.php 16 - 27
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'lab',
+  'username' => 'root',
+  'password' => '',
+  'hostport' => '',
+  'params' => 
+  array (
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'lab_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'datetime_format' => 'Y-m-d H:i:s',
+  'sql_explain' => false,
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/view/Index/index.html [ array (
+  0 => 'introduce',
+  1 => 'banners',
+  2 => 'news',
+  3 => 'researchs',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/web/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002658s ] mysql:dbname=lab;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_news` [ RunTime:0.013089s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.recommendtime desc, a.publishtime desc LIMIT 1   [ RunTime:0.004641s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.digest,a.img,a.href,a.publishtime,a.isrecommend FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.recommendtime desc, a.publishtime desc LIMIT 0,12   [ RunTime:0.001545s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.digest,a.img,a.href,a.publishtime,a.isrecommend FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.publishtime desc, a.recommendtime desc LIMIT 8   [ RunTime:0.000479s ]
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:12+08:00 ] 127.0.0.1 127.0.0.1 GET /web/ResearchArea/info?id=2
+[ log ] lab.com/web/ResearchArea/info?id=2 [运行时间：0.113773s][吞吐率：8.79req/s] [内存消耗：1,990.17kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'ResearchArea',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] /**
+     * 研究方向介绍页
+     */
+Method [ <user> public method info ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/controller/ResearchArea.php 28 - 35
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'lab',
+  'username' => 'root',
+  'password' => '',
+  'hostport' => '',
+  'params' => 
+  array (
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'lab_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'datetime_format' => 'Y-m-d H:i:s',
+  'sql_explain' => false,
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/view/ResearchArea/info.html [ array (
+  0 => 'info',
+  1 => 'recomms',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/web/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001393s ] mysql:dbname=lab;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_research_area` [ RunTime:0.006216s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.img,a.digest,a.content,a.publishtime,a.count_view FROM lab_research_area a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.id = '2'  AND a.status = 1  AND a.ispublish = 1 LIMIT 1   [ RunTime:0.003987s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.img,a.digest,a.content,a.publishtime,a.count_view FROM lab_research_area a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.id <> '2'  AND a.status = 1  AND a.ispublish = 1  AND a.isrecommend = 1 ORDER BY a.publishtime desc LIMIT 3   [ RunTime:0.001939s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_research_area` [ RunTime:0.007289s ]
+[ sql ] [ SQL ] UPDATE `lab_research_area`  SET `count_view`='12'  WHERE  `id` = '2'     [ RunTime:0.006098s ]
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:14+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/index
+[ log ] lab.com/web/Index/index [运行时间：0.025966s][吞吐率：38.51req/s] [内存消耗：2,127.10kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/ResearchArea/info?id=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+	 * 首页
+	 * @return \think\response\View
+	 */
+Method [ <user> public method index ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/controller/Index.php 16 - 27
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'lab',
+  'username' => 'root',
+  'password' => '',
+  'hostport' => '',
+  'params' => 
+  array (
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'lab_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'datetime_format' => 'Y-m-d H:i:s',
+  'sql_explain' => false,
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/view/Index/index.html [ array (
+  0 => 'introduce',
+  1 => 'banners',
+  2 => 'news',
+  3 => 'researchs',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/web/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000229s ] mysql:dbname=lab;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_news` [ RunTime:0.002993s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.recommendtime desc, a.publishtime desc LIMIT 1   [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.digest,a.img,a.href,a.publishtime,a.isrecommend FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.recommendtime desc, a.publishtime desc LIMIT 0,12   [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.digest,a.img,a.href,a.publishtime,a.isrecommend FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.publishtime desc, a.recommendtime desc LIMIT 8   [ RunTime:0.000772s ]
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Result/index
+[ log ] lab.com/web/Result/index [运行时间：0.078540s][吞吐率：12.73req/s] [内存消耗：2,141.54kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Result',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+	 * 科研成果首页
+	 * @return \think\response\View
+	 */
+Method [ <user> public method index ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/controller/Result.php 14 - 30
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'lab',
+  'username' => 'root',
+  'password' => '',
+  'hostport' => '',
+  'params' => 
+  array (
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'lab_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'datetime_format' => 'Y-m-d H:i:s',
+  'sql_explain' => false,
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/view/Result/index.html [ array (
+  0 => 'list',
+  1 => 'tags',
+  2 => 'tag_name',
+  3 => 'research',
+  4 => 'banners',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/web/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000312s ] mysql:dbname=lab;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_result` [ RunTime:0.003275s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM lab_result a LEFT JOIN lab_tag b ON a.tagid=b.id LEFT JOIN lab_research_area c ON c.id=a.research_id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.publishtime desc LIMIT 1   [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.research_id,c.title as research_title,a.digest,a.img,a.href,a.file FROM lab_result a LEFT JOIN lab_tag b ON a.tagid=b.id LEFT JOIN lab_research_area c ON c.id=a.research_id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.publishtime desc LIMIT 0,100   [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_tag` [ RunTime:0.003377s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `lab_tag` WHERE  `section` = '2'  AND `status` = '1'    [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_research_area` [ RunTime:0.002978s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM lab_research_area a INNER JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status <> 2 ORDER BY a.publishtime desc LIMIT 1   [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,a.tagid,b.title as tag_title,a.digest,a.img,a.publishtime,a.count_view,a.ispublish,a.isrecommend FROM lab_research_area a INNER JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status <> 2 ORDER BY a.publishtime desc LIMIT 0,12   [ RunTime:0.000420s ]
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:28+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Member/tutor
+[ log ] lab.com/web/Member/tutor [运行时间：0.032405s][吞吐率：30.86req/s] [内存消耗：1,989.68kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Member',
+    2 => 'tutor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+     * 导师信息首页
+     * @return \think\response\View
+     */
+Method [ <user> public method tutor ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/controller/Member.php 33 - 46
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'lab',
+  'username' => 'root',
+  'password' => '',
+  'hostport' => '',
+  'params' => 
+  array (
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'lab_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'datetime_format' => 'Y-m-d H:i:s',
+  'sql_explain' => false,
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/view/Member/tutor.html [ array (
+  0 => 'list',
+  1 => 'tags',
+  2 => 'banners',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/web/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:dbname=lab;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_member` [ RunTime:0.002847s ]
+[ sql ] [ SQL ] SELECT a.id,a.name,a.tutor,a.position,a.img,a.digest,a.url,a.research_area,a.tagid,a.iscurrent FROM lab_member a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1  AND b.title <> '实验室' ORDER BY publishtime desc  [ RunTime:0.001324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_tag` [ RunTime:0.002724s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `lab_tag` WHERE  `section` = 3  AND `title` = '导师'  AND `status` = '1'   [ RunTime:0.000338s ]
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Member/student
+[ log ] lab.com/web/Member/student [运行时间：0.033666s][吞吐率：29.70req/s] [内存消耗：2,186.66kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Member',
+    2 => 'student',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/tutor',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+     * 学生信息首页
+     * @return \think\response\View
+     */
+Method [ <user> public method student ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/controller/Member.php 52 - 65
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'lab',
+  'username' => 'root',
+  'password' => '',
+  'hostport' => '',
+  'params' => 
+  array (
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'lab_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'datetime_format' => 'Y-m-d H:i:s',
+  'sql_explain' => false,
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/view/Member/student.html [ array (
+  0 => 'list',
+  1 => 'tags',
+  2 => 'banners',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/web/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:dbname=lab;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_member` [ RunTime:0.003678s ]
+[ sql ] [ SQL ] SELECT a.id,a.name,a.tutor,a.position,a.img,a.digest,a.url,a.research_area,a.tagid,a.iscurrent FROM lab_member a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1  AND b.title <> '实验室' ORDER BY publishtime desc  [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_tag` [ RunTime:0.002672s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `lab_tag` WHERE  `section` = 3  AND `title` NOT IN ('实验室','导师')  AND `status` = '1'   [ RunTime:0.000348s ]
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /web/News/index
+[ log ] lab.com/web/News/index [运行时间：0.029195s][吞吐率：34.25req/s] [内存消耗：2,075.80kb] [文件加载：46]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'News',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+	 * 最新动态首页
+	 * @return \think\response\View
+	 */
+Method [ <user> public method index ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/controller/News.php 14 - 24
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'lab',
+  'username' => 'root',
+  'password' => '',
+  'hostport' => '',
+  'params' => 
+  array (
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'lab_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'datetime_format' => 'Y-m-d H:i:s',
+  'sql_explain' => false,
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/view/News/index.html [ array (
+  0 => 'list',
+  1 => 'tags',
+  2 => 'banners',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/web/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:dbname=lab;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_news` [ RunTime:0.002413s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.recommendtime desc, a.publishtime desc LIMIT 1   [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.digest,a.img,a.href,a.publishtime,a.isrecommend FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.recommendtime desc, a.publishtime desc LIMIT 0,12   [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_tag` [ RunTime:0.002927s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `lab_tag` WHERE  `section` = '4'  AND `status` = '1'    [ RunTime:0.000387s ]
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:33+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Member/contact
+[ log ] lab.com/web/Member/contact [运行时间：0.017590s][吞吐率：56.85req/s] [内存消耗：1,715.29kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Member',
+    2 => 'contact',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+     * 联系我们页面
+     */
+Method [ <user> public method contact ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/controller/Member.php 80 - 83
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'lab',
+  'username' => 'root',
+  'password' => '',
+  'hostport' => '',
+  'params' => 
+  array (
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'lab_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'datetime_format' => 'Y-m-d H:i:s',
+  'sql_explain' => false,
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/view/Member/contact.html [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/web/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:35+08:00 ] 127.0.0.1 127.0.0.1 GET /web/
+[ log ] lab.com/web/ [运行时间：0.027843s][吞吐率：35.92req/s] [内存消耗：2,127.05kb] [文件加载：47]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/contact',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+	 * 首页
+	 * @return \think\response\View
+	 */
+Method [ <user> public method index ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/controller/Index.php 16 - 27
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'lab',
+  'username' => 'root',
+  'password' => '',
+  'hostport' => '',
+  'params' => 
+  array (
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'lab_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'datetime_format' => 'Y-m-d H:i:s',
+  'sql_explain' => false,
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/view/Index/index.html [ array (
+  0 => 'introduce',
+  1 => 'banners',
+  2 => 'news',
+  3 => 'researchs',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/web/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:dbname=lab;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_news` [ RunTime:0.003856s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.recommendtime desc, a.publishtime desc LIMIT 1   [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.digest,a.img,a.href,a.publishtime,a.isrecommend FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.recommendtime desc, a.publishtime desc LIMIT 0,12   [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.digest,a.img,a.href,a.publishtime,a.isrecommend FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.publishtime desc, a.recommendtime desc LIMIT 8   [ RunTime:0.000368s ]
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:35+08:00 ] 127.0.0.1 127.0.0.1 GET /web/News/index
+[ log ] lab.com/web/News/index [运行时间：0.043552s][吞吐率：22.96req/s] [内存消耗：2,075.80kb] [文件加载：46]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'News',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+	 * 最新动态首页
+	 * @return \think\response\View
+	 */
+Method [ <user> public method index ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/controller/News.php 14 - 24
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'lab',
+  'username' => 'root',
+  'password' => '',
+  'hostport' => '',
+  'params' => 
+  array (
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'lab_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'datetime_format' => 'Y-m-d H:i:s',
+  'sql_explain' => false,
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/view/News/index.html [ array (
+  0 => 'list',
+  1 => 'tags',
+  2 => 'banners',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/web/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:dbname=lab;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_news` [ RunTime:0.003294s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.recommendtime desc, a.publishtime desc LIMIT 1   [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.digest,a.img,a.href,a.publishtime,a.isrecommend FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.recommendtime desc, a.publishtime desc LIMIT 0,12   [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_tag` [ RunTime:0.003133s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `lab_tag` WHERE  `section` = '4'  AND `status` = '1'    [ RunTime:0.000398s ]
+
+---------------------------------------------------------------

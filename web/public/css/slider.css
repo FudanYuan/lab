@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+#slider{ margin:0 auto; width:1050px; position:relative;}
+#slider .con{
+	width:890px; overflow:hidden; padding-top:40px; margin:0 auto;
+}
+#slider .handle{
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:50%;
+	margin-top:-35px;
+	border-radius:30px;
+	cursor:pointer;
+}
+#slider .handle-left{
+	left:0;
+}
+#slider .handle-right{
+	right:0;
+}
+#slider ul{margin-left:-18px; width:10000px; height:226px;}
+#slider ul li{float:left; margin-left:18px;}
+#slider ul li.cur{
+	margin-left:22px;
+	margin-right:4px;
+}
+#slider ul li img{width:146px;height:146px;}
+#slider ul li.cur img{
+	height:226px;
+	width:226px;
+}
+#slider ul li .img-div{
+	position:relative;
+}
+#slider .btns{
+	position:absolute;
+	width:124px;
+	height:12px;
+	bottom:0;
+	left:50%;
+	margin-left:-62px;
+	z-index:3;
+}
+#slider .btns a{
+	float:left;
+	width:10px;
+	height:10px;
+	border-radius:12px;
+	margin-left:3px;
+	border:1px solid rgba(0,0,0,0);
+}
+#slider .btns a b{
+	display:block;
+	margin:2px;
+	height:6px;
+	width:6px;
+	background:#555;
+	border-radius:6px;
+}
+#slider .btns a.cur{
+	border:1px solid #929292;
+}
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+{include file="Common/top" title="研究方向" metas='' /}
+<script>
+    $('#nav .main a').eq(1).addClass('cur');
+</script>
+<link href="__PUBLIC__/css/research-info.css" rel="stylesheet"/>
+<div id="sec-info">
+    <div class="main clearFix">
+        <div class="con fl">
+            <div class="arti">
+                <ul class="share">
+                    <li><img src="__PUBLIC__/images/wechat.png" alt=""/></li>
+                    <li><img src="__PUBLIC__/images/qq.png" alt=""/></li>
+                    <li><img src="__PUBLIC__/images/weibo.png" alt=""/></li>
+                    <li><img src="__PUBLIC__/images/friends.png" alt=""/></li>
+                </ul>
+                <h2>{$info.title}</h2>
+                <div class="info clearFix">
+                    <i style="margin-left: 30px;" class="tag">标签：{$info.tagname}</i>
+                    <img style="margin-left: 10px;" src="__PUBLIC__/images/clock.png" alt=""/>
+                    <i style="width:75px; margin-right: 30px;" class="clock">{:date('Y-m-d', $info.publishtime)}</i>
+                    <img style="margin-left: 10px;" src="__PUBLIC__/images/eye.png" alt=""/>
+                    <i style="width:30px;" class="num">{$info.count_view}</i>
+                </div>
+                <div class="line"></div>
+                <div class="text">
+                    {$info.content}
+                </div>
+            </div>
+            {php}$section = 1;{/php}
+        </div>
+        <div class="relative fl">
+            <div class="top">其他方向</div>
+            <ul>
+                {foreach name="recomms" item="model"}
+                <li>
+                    <a href="__PRO_PATH__/ResearchArea/info?id={$model.id}">
+                        <img src="{:formatUrl($model.img)}" alt=""/>
+                        <div class="info">
+                            <h4>{$model.title}</h4>
+                            <p>{$model.digest}</p>
+                            <div class="statistic clearFix">
+                                <img src="__PUBLIC__/images/clock.png" alt=""/>
+                                <i class="clock">{:date('Y-m-d', $model.publishtime)}</i>
+                                <img src="__PUBLIC__/images/eye.png" alt=""/>
+                                <i class="num">{$model.count_view}</i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                {/foreach}
+            </ul>
+        </div>
+    </div>
+</div>
+{include file="Common/bottom" /}

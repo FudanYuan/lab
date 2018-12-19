@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+#banner .main .img {
+    width: 99999px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#banner .main .img li {
+    float: left;
+}
+
+/*/ 修改图片大小 /*/
+#banner .main .img img {
+    width: 550px;
+    height: 300px;
+}
+
+/*/ 小圆圈 /*/
+#banner .main .num {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+    font-size: 0;
+}
+
+#banner .main .num li {
+    width: 14px;
+    height: 14px;
+    border: 1px solid rgba(252, 180, 55, 0);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+#banner .main .num li.on {
+    border: 1px solid rgba(252, 180, 55, 1);
+}
+
+#banner .main .num li.on i {
+    background: rgb(252, 180, 55)
+}
+
+#banner .main .num li i {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-bottom: 5px;
+    background: #6b8175;
+    border-radius: 50%;
+}
+
+/*/ 按钮 /*/
+#banner .main .btn {
+    z-index: 5;
+    width: 36px;
+    height: 36px;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 40px;
+    font-family: "宋体";
+    border-radius: 72px;
+}
+
+#banner .main:hover .btn {
+    display: block;
+}
+
+#banner .main .btn_l {
+    left: 5px;
+}
+
+#banner .main .btn_r {
+    right: 5px;
+}
+
+#banner .main .btn img {
+    margin: 3px;
+    width: 10px;
+    height: 20px;
+}

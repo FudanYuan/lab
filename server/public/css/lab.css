@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+.list-search{
+	/*background:#fff;*/
+	padding:10px 0;
+}
+.list-btns{
+	margin:10px 0 5px;
+}
+.list-search .form-group{
+	margin-right:20px;
+}
+.main-container .form-wrapper{
+	padding:20px;
+	width:100%;
+	background:#fff;
+}
+.lab-btns .btn{
+	margin-right:20px;
+}
+table td{
+	valign:middle;
+}
+.clearFix:after{display:block; content:''; clear:both;}
+.clearFix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}

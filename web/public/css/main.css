@@ -1,0 +1,273 @@
+@CHARSET "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+    font-size: 14px;
+    height: auto;
+}
+
+li {
+    list-style: none;
+    line-height: 26px;
+}
+
+a {
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+a:hover{
+    text-decoration: none;
+    color: darkred;
+}
+
+
+img {
+    display: block;
+}
+
+.clearFix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.clearFix {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+input, textarea {
+    -webkit-appearance: none;
+    outline: none
+}
+
+#top .main {
+    height: 100px;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    background: url("../images/bg.png") no-repeat;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../logo/pay_bg/1.png',sizingMethod='scale');
+}
+
+#top .main .logo {
+    /*background: #fcb437;*/
+    /*width: 150px;*/
+    /*height: 90px;*/
+    /*position: absolute;*/
+    /*top: 5px;*/
+    /*left: 50px;*/
+    /*background: #fcb437;*/
+    /* width: 150px; */
+    height: 90px;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    color: #fff;
+    font-size: 30px;
+}
+
+#top .main .logo img {
+    width: 150px;
+    height: 90px;
+    margin: 0;
+}
+
+#top .main .nologin {
+    color: #fff;
+    padding: 12px 158px 0 0;
+}
+
+#top .main .nologin i {
+    float: left;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 22px;
+    width: 38px;
+    background: #fcb437;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#top .main .nologin b {
+    float: left;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    width: 36px;
+    border: 1px solid #b2b2b2;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+#top .main .login {
+    padding-right: 142px;
+}
+
+#top .main .login img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    margin: 8px 12px 0 0;
+}
+
+#top .main .login p {
+    line-height: 47px;
+    font-size: 12px;
+    color: rgb(223, 223, 223);
+    float: left;
+}
+
+#nav .main {
+    /*width: 920px;*/
+    /*height: 50px;*/
+    /*margin: 0 auto;*/
+    /*background: #fffaf2;*/
+    /*padding-left: 180px;*/
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    background: #fffaf2;
+    padding-left: 100px;
+}
+
+#nav .main a {
+    float: left;
+    color: rgb(85, 85, 85);
+    font-size: 15px;
+    line-height: 50px;
+    margin-right: 50px;
+    border-bottom: 2px solid #fffaf2;
+    padding: 0 6px;
+    text-align: center;
+    width: 100px;
+}
+
+#nav .main a:hover {
+    color: rgb(252, 180, 55);
+}
+
+#nav .main a.cur {
+    color: rgb(252, 180, 55);
+    border-bottom: 2px solid rgb(252, 180, 55);
+}
+
+#banner .main {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#bottom .main {
+    width: 1100px;
+    height: 64px;
+    background: #1b1b1b;
+    margin: 0 auto;
+}
+
+#bottom p {
+    color: #fff;
+    float: left;
+    width: 550px;
+    font-size: 15px;
+    line-height: 64px;
+    text-align: center;
+}
+
+#bottom .b-l {
+    margin-left: 0px;
+}
+
+#bottom .b-r {
+    margin-left: 0px;
+}
+
+.pages {
+    width: 100%;
+    margin: 10px auto 0;
+    height: 57px;
+    border-top: 1px solid #d2d1d3;
+}
+
+.pagination {
+    /*float: right;*/
+    /*margin-right: 50px;*/
+    margin-bottom: 20px;
+}
+
+.pagination li a {
+    font-size: 12px;
+    color: #222;
+}
+
+.pagination li {
+    float: left;
+    color: #000;
+    margin-left: 25px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.pagination li span {
+    color: lightgray;
+    font-size: 12px;
+}
+
+.pagination li.active span {
+    font-size: 12px;
+    color: #fcbe52;
+}
+
+.con .form-div input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: rgb(191, 191, 191);
+    font-size: 16px;
+}
+
+.con .form-div input:-moz-placeholder, textarea:-moz-placeholder {
+    color: rgb(191, 191, 191);
+    font-size: 16px;
+}
+
+.con .form-div input::-moz-placeholder, textarea::-moz-placeholder {
+    color: rgb(191, 191, 191);
+    font-size: 16px;
+}
+
+.con .form-div input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: rgb(191, 191, 191);
+    font-size: 16px;
+}
+
+p img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+{include file="Common/top" title="团队成员" metas='' /}
+<script>
+    $('#nav .main a').eq(3).addClass('cur');
+</script>
+<link href="__PUBLIC__/css/member-index.css" rel="stylesheet" />
+<div id="sec-con">
+    <div class="main">
+        <div class="con">
+            <div class="c-top">
+                {php}$curTagid = input('get.tagid');{/php}
+                <a href="?" class="{empty name='$curTagid'}cur{/empty}">全部</a>
+                {foreach name="tags" item="tag"}
+                {if $tag.title != '实验室'}
+                <a href="?tagid={$tag.id}" class="{if condition='$curTagid==$tag.id'}cur{/if}">{$tag.title}</a>
+                {/if}
+                {/foreach}
+            </div>
+            <h2 hidden>团队成员介绍</h2>
+            <div class="c-descr clearFix" hidden>
+                <i class="fl"></i>
+                <p class="fl">一起拼搏，一起进步</p>
+                <i class="fl"></i>
+            </div>
+            {foreach name="tags" item="tag"}
+            {if $curTagid == ''}
+            <p style="margin: 30px 30px; padding-bottom:5px; font-weight: bold; border-bottom: 1px dashed #fcb130;">{$tag.title}</p>
+            {/if}
+            <ul class="list clearFix">
+                {foreach name="list" item="model"}
+                {if condition="$tag.id eq $model.tagid"}
+                {if condition="$model.iscurrent eq 0"}
+                <li style="width: 100%;">
+                    <a href="{empty name='model.url'}__PRO_PATH__/Member/info?id={$model.id}{else /}{$model.url}{/empty}">
+                        <div class="img-div" hidden>
+                            <img src="{:formatUrl($model.img)}" alt="">
+                            <div class="info">
+                                <div class="i-mask"></div>
+                                <h3 style="text-align: center">{$model.name}</h3>
+                                <p style="display: none;">{:formatText($model.digest,39)}</p>
+                            </div>
+                            <div class="img-mask"></div>
+                        </div>
+                        <p style="margin: 5px; line-height: 20px; overflow: hidden; font-size: 18px">
+                            <span style="font-weight: bold; font-size: 18px">{$model.name}&nbsp;&nbsp;</span>
+                            <span style="font-size: 18px">指导老师：</span>{$model.tutor};&nbsp;&nbsp;
+                            <span style="font-size: 18px">研究方向：</span>{$model.research_area};&nbsp;&nbsp;
+                            <span style="font-size: 18px">去向：</span>{$model.digest}
+                        </p>
+                    </a>
+                </li>
+                {else/}
+                <li>
+                    <a href="{empty name='model.url'}__PRO_PATH__/Member/info?id={$model.id}{else /}{$model.url}{/empty}">
+                        <div class="img-div">
+                            <img src="{:formatUrl($model.img)}" alt="">
+                            <div class="info">
+                                <div class="i-mask"></div>
+                                <h3 style="text-align: center">{$model.name}</h3>
+                                <p style="display: none;">{:formatText($model.digest,39)}</p>
+                            </div>
+                            <div class="img-mask"></div>
+                        </div>
+                        <p style="margin: 5px; width: 90px; height: 100px; overflow: hidden">
+                            <span style="font-weight: bold">导师：</span>{$model.tutor}<br/>
+                            <span style="font-weight: bold">研究方向：</span>{:formatText($model.research_area,20)}
+                        </p>
+                    </a>
+                </li>
+                {/if}
+                {/if}
+                {/foreach}
+            </ul>
+            <!--<hr style="width: 800px; margin-left: 24px; border-top:1px dashed #fcb430;"/>-->
+            {/foreach}
+        </div>
+    </div>
+</div>
+{include file="Common/bottom" /}

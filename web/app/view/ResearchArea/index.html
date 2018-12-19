@@ -1,0 +1,47 @@
+{include file="Common/top" title="研究方向" metas='' /}
+<script>
+    $('#nav .main a').eq(1).addClass('cur');
+</script>
+<link href="__PUBLIC__/css/research-index.css" rel="stylesheet"/>
+<div id="sec-con">
+    <div class="main">
+        <div class="con">
+            <div class="c-top">
+                {php}$curTagid = input('get.tagid');{/php}
+                <a href="?" class="{empty name='$curTagid'}cur{/empty}">全部</a>
+                {foreach name="tags" item="tag"}
+                {if $tag.title != '实验室'}
+                <a href="?tagid={$tag.id}" class="{if condition='$curTagid==$tag.id'}cur{/if}">{$tag.title}</a>
+                {/if}
+                {/foreach}
+            </div>
+            <h2 hidden>研究方向</h2>
+            <div class="c-descr clearFix" hidden>
+                <i class="fl"></i>
+                <p class="fl">找到正确的方向，你就成功了一半</p>
+                <i class="fl"></i>
+            </div>
+            <ul class="list clearFix">
+                {foreach name="list" item="model"}
+                <li>
+                    <a href="{empty name='model.href'}__PRO_PATH__/ResearchArea/info?id={$model.id}{else /}{$model.href}{/empty}">
+                        <img src="{:formatUrl($model.img)}" alt=""/>
+                        <div class="info">
+                            <h4>{:formatText($model.title,14)}</h4>
+                            <p>{:formatText($model.digest,34)}</p>
+                            <div class="statistic clearFix">
+                                <img style="margin-left: 30px;" src="__PUBLIC__/images/clock.png" alt=""/>
+                                <i style="width:75px; margin-right: 30px;" class="clock">{:date('Y-m-d', $model.publishtime)}</i>
+                                <img src="__PUBLIC__/images/eye.png" alt=""/>
+                                <i style="width:30px;" class="num">{$model.count_view}</i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                {/foreach}
+            </ul>
+            {$list->render()}
+        </div>
+    </div>
+</div>
+{include file="Common/bottom" /}

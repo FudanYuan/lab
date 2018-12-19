@@ -1,0 +1,134 @@
+@CHARSET "UTF-8";
+#sec-con .main{
+	width:1100px;
+	margin:0 auto;
+	background:#e6e2e7;
+	padding:30px 0;
+}
+#sec-con .con{
+	width:848px;
+	margin:0 auto;
+	border:1px solid #d2d1d3;
+	background:#fff;
+	z-index:2;
+	position:relative;
+}
+#sec-con .con .c-top{
+	height:60px;
+	border-bottom:1px solid #d2d1d3;
+	background: -webkit-linear-gradient(#fff, #efecf0); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(#fff, #efecf0); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(#fff, #efecf0); /* Firefox 3.6 - 15 */
+	background: linear-gradient(#fff, #efecf0); /* 标准的语法 */
+}
+#sec-con .con .c-top a{
+    color:rgb(85,85,85);
+    font-size:16px;
+    line-height:60px;
+    margin-left:30px;
+}
+#sec-con .con .c-top a:hover{
+    color:rgb(252,180,55);
+}
+#sec-con .con .c-top a.cur{
+    color:rgb(252,180,55);
+}
+#sec-con .con h2{
+    font-size:24px;
+    color:rgb(54,54,54);
+    font-weight:normal;
+    line-height:24px;
+    margin-top:33px;
+    text-align:center;
+}
+#sec-con .con .c-descr{
+    margin-top:24px;
+}
+#sec-con .con .c-descr i{
+    width:300px;
+    height:1px;
+    background:#fcb437;
+    margin-top:6px;
+}
+#sec-con .con .c-descr p{
+    width:248px;
+    font-size:12px;
+    line-height:12px;
+    color:rgb(85,85,85);
+    text-align:center;
+}
+#sec-con .con .tags{
+	width:728px;
+	margin:0 auto;
+	padding:40px 0;
+}
+#sec-con .con .tags a{
+	float:left;
+	line-height:28px;
+	border:2px solid rgb(252,180,55);
+	padding:0 7px;
+	font-size:12px;
+	color:rgb(252,180,55);
+	margin:10px 0 0 10px;
+}
+#sec-con .con .list{
+	padding: 30px 10px;
+	height:930px;
+}
+#sec-con .con .list li{
+	position:relative;
+	background:#fff;
+	border:1px solid #bfbfbf;
+	width:242px;
+	height:274px;
+	float:left;
+	margin:10px 0 24px 24px;
+}
+#sec-con .con .list li img{
+	width:242px;
+	height:152px;
+}
+#sec-con .con .list li .info{
+	border-top:none;
+	padding:12px 18px;
+}
+#sec-con .con .list li .info i{
+	float:left;
+	font-size:12px;
+	line-height:12px;
+	color:#606060;
+	font-style:normal;
+}
+#sec-con .con .list li .info i.clock{
+	width:75px;
+}
+#sec-con .con .list li .info i.num{
+	width:38px;
+}
+#sec-con .con .list li .info h4{
+	font-size:14px;
+	line-height:14px;
+	color:rgb(53,53,53);
+	white-space:nowrap;
+	overflow:hidden;
+	margin-bottom:12px;
+	text-align:center;
+}
+#sec-con .con .list li .info p{
+	font-size:12px;
+	color:rgb(85,85,85);
+	line-height:20px;
+	height:40px;
+	overflow:hidden;
+}
+#sec-con .con .list li .info .statistic{
+	border-top:1px solid #bfbfbf;
+	margin-top:14px;
+	padding-top:8px;
+}
+#sec-con .con .list li .info img{
+	width:10px;
+	height:10px;
+	float:left;
+	margin-right:5px;
+}

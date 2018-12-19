@@ -1,0 +1,73 @@
+{include file="Common/top" title="首页" metas='' /}
+<div class="main-container">
+	<div class="padding-md">
+		<ul class="breadcrumb">
+			<li><span class="primary-font"><i class="icon-home"></i></span><a href="__PRO_PATH__/"> 首页</a></li>
+			<li>置顶窗口</li>	 	 
+		</ul>
+		<div class="list-search">
+			<form action="" class="form-inline" method="get" >
+			  <div class="form-group">
+			    <label for="select-pos">位置：</label>
+			    <select name="position" class="form-control" style="width:100px" id="select-pos">
+				  <option value="-1">全部</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				</select>
+			  </div>
+			  <div class="form-group">
+			    <label for="select-title">标题：</label>
+				<input id="select-title" name="title" class="form-control" style="width:200px" value="{$cond.title ?? ''}" />
+			  </div>
+			  <button type="submit" class="btn btn-default">查询</button>
+			  <script>
+			  	$('#select-pos').val('{$cond.position ?? -1}');
+			  </script>
+			</form>
+		</div>
+		<div class="list-btns">
+			{if condition="authority('Banner_del')"}
+			<button type="button" class="btn btn-default" id="removeItem">取消置顶</button>
+			{/if}
+		</div>
+		<table class="table table-hover" style="background:#fff;">
+		  <thead>
+		  	<tr>
+		  		<th><input type="checkbox" id="checkbox-all"/></th>
+		  		<th>序号</th>
+		  		<th>标题</th>
+		  		<th>位置</th>
+		  		<th>背景图</th>
+		  		<th>开始时间</th>
+		  		<th>结束时间</th>
+		  	</tr>
+		  </thead>
+		  <tbody>
+			{foreach name="list" item="model"}
+				<tr>
+					<td><input type="checkbox" name="select" value="{$model.id}" /></td>
+					<td>{$model.id}</td>
+					<td>{$model.title}</td>
+					<td>{$model.position}</td>
+					<td><img src="{$model.img}" alt="" style="width:160px; height:50px;" /></td>
+					<td>{$model.begintime|date="Y-m-d",###}</td>
+					<td>{$model.endtime|date="Y-m-d",###}</td>
+				</tr>
+			{/foreach}
+		  </tbody>
+		</table>
+		{$list->render()}
+	</div>
+</div><!-- /main-container -->
+{include file="Common/popup_warn" /}
+{include file="Common/popup_cancel_top" /}
+<script>
+	$('#lab-nav2').addClass('active');
+	popuCancel({
+		remove:'__PRO_PATH__/Banner/canceltop'
+	});
+</script>
+{include file="Common/bottom" /}

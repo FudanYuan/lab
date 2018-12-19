@@ -1,0 +1,54 @@
+{include file="Common/top" title="团队成员" metas='' /}
+<script>
+	$('#nav .main a').eq(2).addClass('cur');
+</script>
+<link href="__PUBLIC__/css/member-info.css" rel="stylesheet" />
+<div id="sec-info">
+	<div class="main">
+		<div class="con">
+			<ul class="share" style="display: none">
+				<li><img src="__PUBLIC__/images/wechat.png" alt="" /></li>
+				<li><img src="__PUBLIC__/images/qq.png" alt="" /></li>
+				<li><img src="__PUBLIC__/images/weibo.png" alt="" /></li>
+				<li><img src="__PUBLIC__/images/friends.png" alt="" /></li>
+			</ul>
+			<div class="main-img-div">
+				<img src="{:formatUrl($info.bgimg)}" alt="" />
+				<div class="mask"></div>
+				<h2>{$info.name}</h2>
+			</div>
+			<div class="info clearFix">
+				<div class="i-l fl">
+					<div class="i-l-t">
+						{$info.digest}
+					</div>
+				</div>
+				<div class="i-r fl">
+					<h4>{$info.name}介绍</h4>
+					{$info.descr}
+				</div>
+			</div>
+		</div>
+		<div class="relative">
+			<h2>其他团队成员</h2>
+			<ul class="list clearFix">
+				{foreach name="recomms" item="model"}
+	            <li>
+	            	<a href="__PRO_PATH__/Member/info?id={$model.id}">
+		            <div class="img-div">
+		                <img src="{:formatUrl($model.img)}" alt="">
+		                <div class="info">
+		                	<div class="i-mask"></div>
+		                	<h3>{$model.name}</h3>
+		                	<p>{:formatText($model.digest,39)}</p>
+		                </div>
+		                <div class="img-mask"></div>
+		            </div>
+		            </a>
+	            </li>
+	            {/foreach}
+	        </ul>
+		</div>
+	</div>
+</div>
+{include file="Common/bottom" /}

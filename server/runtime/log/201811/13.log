@@ -1,0 +1,178 @@
+[ 2018-11-13T09:25:52+08:00 ] 127.0.0.1 127.0.0.1 POST /server/UserAdmin/login
+[ log ] lab.com/server/UserAdmin/login [运行时间：0.179936s][吞吐率：5.56req/s] [内存消耗：1,648.07kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'UserAdmin',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://lab.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3602.2 Safari/537.36',
+  'referer' => 'http://lab.com/server/UserAdmin/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6,la;q=0.5',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=cca9t54vr6h0vcm1q2q35858b7',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '27',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'py',
+  'pass' => 'complex217',
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ RUN ] /**
+	 * 后台登录
+	 */
+Method [ <user> public method login ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/server/app/controller/UserAdmin.php 15 - 31
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'lab',
+  'username' => 'root',
+  'password' => '',
+  'hostport' => '',
+  'params' => 
+  array (
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'lab_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'datetime_format' => 'Y-m-d H:i:s',
+  'sql_explain' => false,
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'lab_session',
+  'type' => 'redis',
+  'auto_start' => true,
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000974s ] mysql:dbname=lab;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_user_admin` [ RunTime:0.006032s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`pass`,`status`,`roleid` FROM `lab_user_admin` WHERE  `username` = 'py'  AND `status` <> 2 LIMIT 1    [ RunTime:0.000655s ]
+[ sql ] [ SQL ] UPDATE `lab_user_admin`  SET `logintime`='1542072352',`updatetime`='1542072352'  WHERE  `id` = '1'      [ RunTime:0.000708s ]
+
+---------------------------------------------------------------
+[ 2018-11-13T09:25:52+08:00 ] 127.0.0.1 127.0.0.1 GET /server/
+[ log ] lab.com/server/ [运行时间：0.078762s][吞吐率：12.70req/s] [内存消耗：1,785.15kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => '',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3602.2 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/server/UserAdmin/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6,la;q=0.5',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=cca9t54vr6h0vcm1q2q35858b7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'lab_session',
+  'type' => 'redis',
+  'auto_start' => true,
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+)
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'lab',
+  'username' => 'root',
+  'password' => '',
+  'hostport' => '',
+  'params' => 
+  array (
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'lab_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'datetime_format' => 'Y-m-d H:i:s',
+  'sql_explain' => false,
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ RUN ] /**
+	 * 首页
+	 * @return \think\response\View
+	 */
+Method [ <user> public method index ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/server/app/controller/Index.php 16 - 18
+}
+
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/server/app/view/Index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------

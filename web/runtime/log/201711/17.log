@@ -1,0 +1,91 @@
+[ 2017-11-17T21:51:35+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/index
+[ log ] lab.com/web/Index/index [运行时间：0.364902s][吞吐率：2.74req/s] [内存消耗：2,308.77kb] [文件加载：49]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] /**
+	 * 首页
+	 * @return \think\response\View
+	 */
+Method [ <user> public method index ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/controller/Index.php 16 - 27
+}
+
+[ info ] [ DB ] INIT mysql:array (
+  'type' => 'mysql',
+  'dsn' => '',
+  'hostname' => 'localhost',
+  'database' => 'lab',
+  'username' => 'root',
+  'password' => '',
+  'hostport' => '',
+  'params' => 
+  array (
+  ),
+  'charset' => 'utf8',
+  'prefix' => 'lab_',
+  'debug' => true,
+  'deploy' => 0,
+  'rw_separate' => false,
+  'master_num' => 1,
+  'slave_no' => '',
+  'fields_strict' => true,
+  'auto_timestamp' => false,
+  'resultset_type' => 'array',
+  'datetime_format' => 'Y-m-d H:i:s',
+  'sql_explain' => false,
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/web/app/view/Index/index.html [ array (
+  0 => 'introduce',
+  1 => 'banners',
+  2 => 'news',
+  3 => 'researchs',
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/web/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000330s ] mysql:dbname=lab;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_banner` [ RunTime:0.013007s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img`,`section`,`conid` FROM `lab_banner` WHERE  `status` = '1' ORDER BY position LIMIT 5    [ RunTime:0.001367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_news` [ RunTime:0.009238s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.recommendtime desc, a.publishtime desc LIMIT 1   [ RunTime:0.003419s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.digest,a.img,a.href,a.publishtime,a.isrecommend FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.recommendtime desc, a.publishtime desc LIMIT 0,12   [ RunTime:0.001659s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.digest,a.img,a.href,a.publishtime,a.isrecommend FROM lab_news a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1 ORDER BY a.publishtime desc, a.recommendtime desc LIMIT 8   [ RunTime:0.001461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_research_area` [ RunTime:0.004633s ]
+[ sql ] [ SQL ] SELECT a.id,a.title,b.title as tagname,a.digest,a.img,a.publishtime,a.count_view FROM lab_research_area a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1  AND a.isrecommend = 1 ORDER BY a.recommendtime desc,a.recomm_pos,a.publishtime desc LIMIT 3   [ RunTime:0.003075s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lab_member` [ RunTime:0.008264s ]
+[ sql ] [ SQL ] SELECT a.id,a.name,b.title as tagname,a.phone,a.email,a.address,a.img,a.digest,a.descr,a.research_area FROM lab_member a LEFT JOIN lab_tag b ON a.tagid=b.id  WHERE  a.status = 1  AND a.ispublish = 1  AND b.title = '实验室' LIMIT 1   [ RunTime:0.000910s ]
+
+---------------------------------------------------------------

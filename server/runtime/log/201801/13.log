@@ -1,0 +1,2336 @@
+[ 2018-01-13T19:23:52+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/banner/20171109/224609_972.png
+[ log ] lab.com/server/public/data/banner/20171109/224609_972.png [运行时间：0.037789s][吞吐率：26.46req/s] [内存消耗：935.10kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42',
+)
+[ info ] [ PARAM ] array (
+  'banner' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:23:52+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/banner/20171109/212113_137.png
+[ log ] lab.com/server/public/data/banner/20171109/212113_137.png [运行时间：0.034443s][吞吐率：29.03req/s] [内存消耗：935.10kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42',
+)
+[ info ] [ PARAM ] array (
+  'banner' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:23:52+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/banner/20171119/145243_364.png
+[ log ] lab.com/server/public/data/banner/20171119/145243_364.png [运行时间：0.035417s][吞吐率：28.24req/s] [内存消耗：935.10kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42',
+)
+[ info ] [ PARAM ] array (
+  'banner' => '20171119',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:14+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/banner/20171109/224609_972.png
+[ log ] lab.com/server/public/data/banner/20171109/224609_972.png [运行时间：0.029714s][吞吐率：33.65req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'banner' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:14+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/banner/20171119/145243_364.png
+[ log ] lab.com/server/public/data/banner/20171119/145243_364.png [运行时间：0.039694s][吞吐率：25.19req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'banner' => '20171119',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:14+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/banner/20171109/212113_137.png
+[ log ] lab.com/server/public/data/banner/20171109/212113_137.png [运行时间：0.035173s][吞吐率：28.43req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'banner' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171109/214334_931.png
+[ log ] lab.com/server/public/data/result_img/20171109/214334_931.png [运行时间：0.019982s][吞吐率：50.04req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171109/214704_246.png
+[ log ] lab.com/server/public/data/result_img/20171109/214704_246.png [运行时间：0.023519s][吞吐率：42.52req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171109/214347_938.png
+[ log ] lab.com/server/public/data/result_img/20171109/214347_938.png [运行时间：0.020646s][吞吐率：48.44req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171119/142929_123.png
+[ log ] lab.com/server/public/data/result_img/20171119/142929_123.png [运行时间：0.053378s][吞吐率：18.73req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171119',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171109/214401_104.png
+[ log ] lab.com/server/public/data/result_img/20171109/214401_104.png [运行时间：0.014638s][吞吐率：68.32req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171109/214044_762.png
+[ log ] lab.com/server/public/data/result_img/20171109/214044_762.png [运行时间：0.018460s][吞吐率：54.17req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171109/214637_550.png
+[ log ] lab.com/server/public/data/result_img/20171109/214637_550.png [运行时间：0.015653s][吞吐率：63.89req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171109/214522_805.png
+[ log ] lab.com/server/public/data/result_img/20171109/214522_805.png [运行时间：0.020417s][吞吐率：48.98req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171109/214649_258.png
+[ log ] lab.com/server/public/data/result_img/20171109/214649_258.png [运行时间：0.134022s][吞吐率：7.46req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171109/214322_366.png
+[ log ] lab.com/server/public/data/result_img/20171109/214322_366.png [运行时间：0.132526s][吞吐率：7.55req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171109/214309_658.png
+[ log ] lab.com/server/public/data/result_img/20171109/214309_658.png [运行时间：0.100780s][吞吐率：9.92req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171109/214439_225.png
+[ log ] lab.com/server/public/data/result_img/20171109/214439_225.png [运行时间：0.052681s][吞吐率：18.98req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171109/214028_745.png
+[ log ] lab.com/server/public/data/result_img/20171109/214028_745.png [运行时间：0.043662s][吞吐率：22.90req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/result_img/20171109/214243_941.png
+[ log ] lab.com/server/public/data/result_img/20171109/214243_941.png [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：934.58kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Result/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'result_img' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:28+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171111/092329_727.png
+[ log ] lab.com/server/public/data/member/20171111/092329_727.png [运行时间：0.015891s][吞吐率：62.93req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/tutor',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171111',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:28+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171110/151922_149.jpg
+[ log ] lab.com/server/public/data/member/20171110/151922_149.jpg [运行时间：0.018373s][吞吐率：54.43req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/tutor',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171110',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:28+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171110/151245_880.jpg
+[ log ] lab.com/server/public/data/member/20171110/151245_880.jpg [运行时间：0.013050s][吞吐率：76.63req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/tutor',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171110',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171110/145032_484.png
+[ log ] lab.com/server/public/data/member/20171110/145032_484.png [运行时间：0.037326s][吞吐率：26.79req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171110',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/092057_296.jpg
+[ log ] lab.com/server/public/data/member/20171114/092057_296.jpg [运行时间：0.014032s][吞吐率：71.27req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171109/230911_407.png
+[ log ] lab.com/server/public/data/member/20171109/230911_407.png [运行时间：0.043121s][吞吐率：23.19req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171105/160906_821.jpg
+[ log ] lab.com/server/public/data/member/20171105/160906_821.jpg [运行时间：0.020856s][吞吐率：47.95req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171105',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/094538_282.png
+[ log ] lab.com/server/public/data/member/20171114/094538_282.png [运行时间：0.030457s][吞吐率：32.83req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171110/144707_824.png
+[ log ] lab.com/server/public/data/member/20171110/144707_824.png [运行时间：0.023341s][吞吐率：42.84req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171110',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/093833_254.jpg
+[ log ] lab.com/server/public/data/member/20171114/093833_254.jpg [运行时间：0.023934s][吞吐率：41.78req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/095200_80.png
+[ log ] lab.com/server/public/data/member/20171114/095200_80.png [运行时间：0.031151s][吞吐率：32.10req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171110/142216_734.jpg
+[ log ] lab.com/server/public/data/member/20171110/142216_734.jpg [运行时间：0.038044s][吞吐率：26.29req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171110',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171105/150820_1.jpg
+[ log ] lab.com/server/public/data/member/20171105/150820_1.jpg [运行时间：0.086786s][吞吐率：11.52req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171105',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/091202_988.png
+[ log ] lab.com/server/public/data/member/20171114/091202_988.png [运行时间：0.031071s][吞吐率：32.18req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171105/152012_350.jpg
+[ log ] lab.com/server/public/data/member/20171105/152012_350.jpg [运行时间：0.025121s][吞吐率：39.81req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171105',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/091411_484.png
+[ log ] lab.com/server/public/data/member/20171114/091411_484.png [运行时间：0.019841s][吞吐率：50.40req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/094755_262.png
+[ log ] lab.com/server/public/data/member/20171114/094755_262.png [运行时间：0.019791s][吞吐率：50.53req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/094142_442.png
+[ log ] lab.com/server/public/data/member/20171114/094142_442.png [运行时间：0.020039s][吞吐率：49.90req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/093306_929.png
+[ log ] lab.com/server/public/data/member/20171114/093306_929.png [运行时间：0.029720s][吞吐率：33.65req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/094409_233.png
+[ log ] lab.com/server/public/data/member/20171114/094409_233.png [运行时间：0.020961s][吞吐率：47.71req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/092928_207.png
+[ log ] lab.com/server/public/data/member/20171114/092928_207.png [运行时间：0.024146s][吞吐率：41.41req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/091843_483.jpg
+[ log ] lab.com/server/public/data/member/20171114/091843_483.jpg [运行时间：0.022798s][吞吐率：43.86req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171119/135333_40.jpg
+[ log ] lab.com/server/public/data/member/20171119/135333_40.jpg [运行时间：0.021902s][吞吐率：45.66req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171119',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171110/144619_807.png
+[ log ] lab.com/server/public/data/member/20171110/144619_807.png [运行时间：0.016450s][吞吐率：60.79req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171110',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/090851_998.png
+[ log ] lab.com/server/public/data/member/20171114/090851_998.png [运行时间：0.015662s][吞吐率：63.85req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/091618_581.png
+[ log ] lab.com/server/public/data/member/20171114/091618_581.png [运行时间：0.019960s][吞吐率：50.10req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/095019_586.png
+[ log ] lab.com/server/public/data/member/20171114/095019_586.png [运行时间：0.020120s][吞吐率：49.70req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171114/092333_942.png
+[ log ] lab.com/server/public/data/member/20171114/092333_942.png [运行时间：0.019093s][吞吐率：52.38req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171114',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:30+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171105/152335_766.jpg
+[ log ] lab.com/server/public/data/member/20171105/152335_766.jpg [运行时间：0.019980s][吞吐率：50.05req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/student',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171105',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171201/163035_414.jpg
+[ log ] lab.com/server/public/data/news/20171201/163035_414.jpg [运行时间：0.018524s][吞吐率：53.98req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171201',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171109/224445_360.png
+[ log ] lab.com/server/public/data/news/20171109/224445_360.png [运行时间：0.025171s][吞吐率：39.73req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171119/145027_637.png
+[ log ] lab.com/server/public/data/news/20171119/145027_637.png [运行时间：0.025016s][吞吐率：39.97req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171119',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171119/130623_480.png
+[ log ] lab.com/server/public/data/news/20171119/130623_480.png [运行时间：0.034862s][吞吐率：28.68req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171119',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171109/220533_873.jpg
+[ log ] lab.com/server/public/data/news/20171109/220533_873.jpg [运行时间：0.034920s][吞吐率：28.64req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171109/213710_143.png
+[ log ] lab.com/server/public/data/news/20171109/213710_143.png [运行时间：0.036262s][吞吐率：27.58req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171109/212633_854.png
+[ log ] lab.com/server/public/data/news/20171109/212633_854.png [运行时间：0.034166s][吞吐率：29.27req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171109/212032_665.png
+[ log ] lab.com/server/public/data/news/20171109/212032_665.png [运行时间：0.017306s][吞吐率：57.78req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171105/170427_761.jpg
+[ log ] lab.com/server/public/data/news/20171105/170427_761.jpg [运行时间：0.017141s][吞吐率：58.34req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171105',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:31+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171109/213123_846.png
+[ log ] lab.com/server/public/data/news/20171109/213123_846.png [运行时间：0.071146s][吞吐率：14.06req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:33+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/member/20171104/224553_723.jpg
+[ log ] lab.com/server/public/data/member/20171104/224553_723.jpg [运行时间：0.012812s][吞吐率：78.05req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/Member/contact',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'member' => '20171104',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:35+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/banner/20171119/145243_364.png
+[ log ] lab.com/server/public/data/banner/20171119/145243_364.png [运行时间：0.016624s][吞吐率：60.15req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'banner' => '20171119',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:35+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/banner/20171109/224609_972.png
+[ log ] lab.com/server/public/data/banner/20171109/224609_972.png [运行时间：0.015676s][吞吐率：63.79req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'banner' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:35+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/banner/20171109/212113_137.png
+[ log ] lab.com/server/public/data/banner/20171109/212113_137.png [运行时间：0.021241s][吞吐率：47.08req/s] [内存消耗：934.57kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'banner' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:36+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171201/163035_414.jpg
+[ log ] lab.com/server/public/data/news/20171201/163035_414.jpg [运行时间：0.034561s][吞吐率：28.93req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171201',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:36+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171119/145027_637.png
+[ log ] lab.com/server/public/data/news/20171119/145027_637.png [运行时间：0.016022s][吞吐率：62.41req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171119',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:36+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171109/213710_143.png
+[ log ] lab.com/server/public/data/news/20171109/213710_143.png [运行时间：0.021063s][吞吐率：47.48req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:36+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171109/220533_873.jpg
+[ log ] lab.com/server/public/data/news/20171109/220533_873.jpg [运行时间：0.023023s][吞吐率：43.43req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:36+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171119/130623_480.png
+[ log ] lab.com/server/public/data/news/20171119/130623_480.png [运行时间：0.028278s][吞吐率：35.36req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171119',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:36+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171109/224445_360.png
+[ log ] lab.com/server/public/data/news/20171109/224445_360.png [运行时间：0.049541s][吞吐率：20.19req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:36+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171109/212032_665.png
+[ log ] lab.com/server/public/data/news/20171109/212032_665.png [运行时间：0.019014s][吞吐率：52.59req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:36+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171105/170427_761.jpg
+[ log ] lab.com/server/public/data/news/20171105/170427_761.jpg [运行时间：0.019075s][吞吐率：52.42req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171105',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:36+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171109/213123_846.png
+[ log ] lab.com/server/public/data/news/20171109/213123_846.png [运行时间：0.042676s][吞吐率：23.43req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-01-13T19:24:36+08:00 ] 127.0.0.1 127.0.0.1 GET /server/public/data/news/20171109/212633_854.png
+[ log ] lab.com/server/public/data/news/20171109/212633_854.png [运行时间：0.048999s][吞吐率：20.41req/s] [内存消耗：934.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'public',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3311.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://lab.com/web/News/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=opa74up0c84jk778ft7rb3rq42; think_var=zh',
+)
+[ info ] [ PARAM ] array (
+  'news' => '20171109',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------

@@ -1,0 +1,145 @@
+[ 2018-11-19T11:30:50+08:00 ] 127.0.0.1 127.0.0.1 GET /server/Member/curmember
+[ log ] lab.com/server/Member/curmember [运行时间：0.251212s][吞吐率：3.98req/s] [内存消耗：834.70kb] [文件加载：21]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Member',
+    2 => 'curmember',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3610.2 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/server/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6,la;q=0.5',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=cca9t54vr6h0vcm1q2q35858b7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'lab_session',
+  'type' => 'redis',
+  'auto_start' => true,
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+)
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-11-19T11:30:50+08:00 ] 127.0.0.1 127.0.0.1 GET /server/UserAdmin/login
+[ log ] lab.com/server/UserAdmin/login [运行时间：0.064664s][吞吐率：15.46req/s] [内存消耗：1,145.51kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'UserAdmin',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3610.2 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/server/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6,la;q=0.5',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=cca9t54vr6h0vcm1q2q35858b7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ RUN ] /**
+	 * 后台登录
+	 */
+Method [ <user> public method login ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/server/app/controller/UserAdmin.php 15 - 31
+}
+
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/server/app/view/UserAdmin/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------
+[ 2018-11-19T11:30:51+08:00 ] 127.0.0.1 127.0.0.1 GET /server/UserAdmin/login
+[ log ] lab.com/server/UserAdmin/login [运行时间：0.045081s][吞吐率：22.18req/s] [内存消耗：1,145.55kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'UserAdmin',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lab.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3610.2 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://lab.com/server/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en-US;q=0.9,en;q=0.8,zh-CN;q=0.7,ja;q=0.6,la;q=0.5',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=cca9t54vr6h0vcm1q2q35858b7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT redis:array (
+  'type' => 'redis',
+  'host' => '127.0.0.1',
+  'port' => '6379',
+  'password' => '',
+  'timeout' => 0,
+  'expire' => 0,
+  'persistent' => false,
+  'prefix' => 'lab_server:',
+)
+[ info ] [ RUN ] /**
+	 * 后台登录
+	 */
+Method [ <user> public method login ] {
+  @@ /Applications/XAMPP/xamppfiles/htdocs/lab/server/app/controller/UserAdmin.php 15 - 31
+}
+
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/lab/server/app/view/UserAdmin/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File: array (
+  'path' => '/Applications/XAMPP/xamppfiles/htdocs/lab/server/runtime/log/',
+  'level' => 
+  array (
+  ),
+)
+
+---------------------------------------------------------------

@@ -1,0 +1,58 @@
+{include file="Common/top" title="最新动态" metas='' /}
+<script>
+	$('#nav .main a').eq(3).addClass('cur');
+</script>
+<link href="__PUBLIC__/css/common-info.css" rel="stylesheet" />
+<div id="sec-info">
+	<div class="main clearFix">
+		<div class="con fl">
+			<div class="arti">
+				<ul class="share">
+					<li><img src="__PUBLIC__/images/wechat.png" alt="" /></li>
+					<li><img src="__PUBLIC__/images/qq.png" alt="" /></li>
+					<li><img src="__PUBLIC__/images/weibo.png" alt="" /></li>
+					<li><img src="__PUBLIC__/images/friends.png" alt="" /></li>
+				</ul>
+				<h2>{$info.title}</h2>
+				<div class="info clearFix">
+					<i class="tag">标签：{$info.tagname}</i>
+					<i class="auth">作者：{$info.author}</i>
+					<img src="__PUBLIC__/images/clock.png" alt="" />
+					<i class="clock">{:date('Y-m-d', $info.publishtime)}</i>
+					<img src="__PUBLIC__/images/eye.png" alt="" />
+					<i class="num">{$info.count_view}</i>
+				</div>
+				<div class="line"></div>
+				<div class="text">
+					{$info.content}
+				</div>
+			</div>
+			{php}$section = 4;{/php}
+		</div>
+		<div class="relative fl">
+			<div class="top">其他动态</div>
+			<ul class="clearFix">
+				{foreach name="recomms" item="model"}
+				<li>
+					<a href="__PRO_PATH__/News/info?id={$model.id}">
+					<img src="{:formatUrl($model.img)}" alt="">
+					<div class="info">
+						<div class="i-title">
+							<div class="mask"></div>
+							<p>{$model.title}</p>
+						</div>
+					</div>
+					<div class="img-title">{$model.tagname}</div>
+					<div class="t-frame">
+						<i class="f-line fl"></i>
+						<i class="f-box fl"></i>
+						<i class="f-line fl"></i>
+					</div>
+					</a>
+				</li>
+				{/foreach}
+			</ul>
+		</div>
+	</div>
+</div>
+{include file="Common/bottom" /}

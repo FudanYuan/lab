@@ -1,0 +1,117 @@
+{include file="Common/top" title="Transportation Data Analysis And Application" metas='' /}
+
+<link href="__PUBLIC__/css/slider.css" rel="stylesheet"/>
+<script src="__PUBLIC__/js/slider.js"></script>
+<link href="__PUBLIC__/css/index.css" rel="stylesheet"/>
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/js/bootstrap/css/bootstrap.min.css">
+<script>
+    $('#nav .main a').eq(0).addClass('cur');
+</script>
+
+<style>
+    #nav .main {
+        width: 1100px;
+        height: 50px;
+        margin: 0 auto;
+        background: #fffaf2;
+        padding-left: 100px;
+        /*padding-left: 199px;*/
+    }
+
+    #nav .main a{
+        width: 112px;
+    }
+
+    #container{
+        width: 1100px;
+        margin: 5px auto;
+        padding-bottom: 30px;
+    }
+
+    #container .main-con{
+        width: 100%;
+    }
+
+    p{
+        margin: 0;
+    }
+
+    .con_1{
+        width:530px;
+        padding-bottom: 10px;
+        z-index: 10;
+        line-height: 26px;
+        text-align: justify;
+    }
+</style>
+
+<div id="container">
+    <div class="main-con clearFix">
+        <div class="row">
+            <!--实验室简介-->
+            <div class="col-lg-6">
+                <div id="introduce">
+                    <div class="main">
+                        <div class="title" hidden>实验室简介</div>
+                        <div class="con">{$introduce.research_area}</div>
+                        <div class="con_1">{$introduce.digest}</div>
+                    </div>
+                </div>
+            </div>
+            {include file="Common/main" /}
+        </div>
+
+        <div class="row">
+            <!--研究方向-->
+            <div class="col-lg-6">
+                <div id="research">
+                    <div class="main">
+                        <div class="title"><a href="__PRO_PATH__/ResearchArea/index">研究方向</a></div>
+                        <div class="descr" hidden>用敏锐的双眼洞察整个世界</div>
+                        <div class="con">
+                            <ul class="clearFix">
+                                {foreach name="researchs" item="research"}
+                                <li>
+                                    <a href="__PRO_PATH__/ResearchArea/info?id={$research.id}">
+                                        <img class="b-img" src="{:formatUrl($research.img)}" alt=""/>
+                                        <p>{:formatText($research.digest,34)}</p>
+                                    </a>
+                                </li>
+                                {/foreach}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--最新动态-->
+            <div class="col-lg-6">
+               <div id="news">
+                   <div class="main">
+                       <div class="title"><a href="__PRO_PATH__/News/index">科研动态</a></div>
+                       <div class="descr" hidden>实验室日常都在这</div>
+                       <div class="list">
+                           <ul>
+                               {foreach name="news" item="item"}
+                               <li>
+                                   <a style="color: rgb(85,85,85);" title="{$item.digest}"
+                                      href="__PRO_PATH__/News/info?id={$item.id}">
+                                       {:formatText($item.title,20)}
+                                   </a>
+                                   {if $item.isrecommend eq 1}
+                                   <span><i style="color: red" class="fa fa-flag" aria-hidden="true"></i></span>
+                                   {/if}
+                                   <span style="float: right">{if condition="$item.publishtime"}{$item.publishtime |date="Y-m-d",###}{/if}</span>
+                               </li>
+                               {/foreach}
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+{include file="Common/bottom" /}
